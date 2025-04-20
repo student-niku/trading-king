@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 5px;
+}
+.heading{
+    margin-top: 20px;
+    background-color: rgb(255, 217, 0);
+    padding: 10px 20px;
+    color: #ffff;
+    border-radius: 10px;
+}
+.telegram{
+    margin-top: 20px;
+    background-color: #24A1DE ;
+    padding: 10px 10px;
+     display: flex;
+    justify-content: center;
+     align-items: center;
+     border-radius: 10px;
+
+}
+.telegram a{
+    text-decoration: none;
+    color: #ffff;
+}
+.img{
+    margin-top: 10px;
+}
+.whatsapp{
+    margin-top: 20px;
+    background-color: #075E54 ;
+    padding: 10px 10px;
+     display: flex;
+    justify-content: center;
+     align-items: center;
+     border-radius: 10px;
+}
+.whatsapp a{
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: #ffff;
+}
